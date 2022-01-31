@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #DEDAE8;
+  }
+  
+  .section1{
+    background-color: #0F1B21;
+    color:#F4FCF1;
+  }
+  
+  .top-header{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 100px;
+  }
+  
+  .header-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+  }
+
+  .sign-up1{
+    background-color:#FFCA78;
+    color: #1B2B18;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  
+    display:block;
+    width: 20%;
+    height:30px;
+    border: 3px solid #1B2B18; 
+    border-radius:8px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    margin-top: 10%;
+  }
+  
+  ul{
+    list-style-type: none;
+    font-family: 'Rasa', serif;
+    font-size: 18px;
+    display: flex;
+    margin-right: 100px;
+    padding: 0;
+    gap: 16px;
+  }
+  
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .top-section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  
+  .main-header{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+  }
+  
+  p{
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+  }
+  
+  .left-text, .right-img {
+    gap: 16px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 400%;
+  }
+  
+  img{
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  .click-here{
+    background-color:#FFCA78;
+    color: #1B2B18;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  
+    display:block;
+    width: 20%;
+    height:30px;
+    border: none; 
+    border-radius:8px;
+  }
+  
+  .section2 {
+    color: #1B2B18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  
+  .title-text{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .images {
+    border: 3px solid #0F1B21;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+    margin-left: 10px;
+  }
+  
+  .subtext {
+    max-width: 200px;
+    font-family: 'Rasa', serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section3 {
+    background-color: #3482A8;
+    padding: 10px;
+    height: 35vh;
+  }
+
+  .head-quote{
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    margin-bottom: 20px;
+  }
+
+  .head-quote-source{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: white; 
+    font-size: 22px;
+    display: flex;
+    justify-content: right;
+    margin-right: 180px;
+    margin-bottom: 160px;
+  }
+
+  .quote{
+    font-family: 'Kanit', sans-serif;
+    font-size: 28px;
+    color: #1B2B18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .quote-source{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    color: #1B2B18; 
+    font-size: 22px;
+    display: flex;
+    justify-content: right;
+    margin-right: 180px;
+    margin-bottom: 160px;
+  }
+  
+  .section4 {
+    background-color: #DEDAE8;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom-section {
+    height: 100px; 
+    width: 700px;
+    border-radius:8px;
+    background-color:#FFCA78;
+  }
+  
+  .bottom-section-inside{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 6px;
+    margin-right: 110px;
+    margin-bottom: 80px;
+  }
+  
+  .bottom-section-title{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 5px;
+    font-weight: bold;
+    color: #1B2B18;
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+  
+  .bottom-section-info {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: #1B2B18;
+    margin-left: 86px;
+    margin-right: 60px;
+  }
+  
+  .signup-2{
+    background-color:#FFCA78;
+    color: #1B2B18;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  
+    display:block;
+    width: 20%;
+    height:30px;
+    border: 3px solid #1B2B18; 
+    border-radius:8px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    background: #0F1B21;;
+  }
