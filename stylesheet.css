@@ -6,28 +6,36 @@ body{
   
   .section1{
     background-color: #0F1B21;
-    color:#F4FCF1;
+    color:#ffffff;
   }
-  
-  .top-header{
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 100px;
-  }
-  
+
   .header-text{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: left;
     padding: 8px;
   }
 
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .top-header{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 100px;
+  }
+  
   .sign-up1{
     background-color:#FFCA78;
-    color: #1B2B18;
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
     font-weight: bold;
   
     display:block;
@@ -42,20 +50,14 @@ body{
   
   ul{
     list-style-type: none;
-    font-family: 'Rasa', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: flex;
     margin-right: 100px;
     padding: 0;
     gap: 16px;
   }
-  
-  .left, .right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
-  
+
   .top-section{
     display: flex;
     justify-content: space-around;
@@ -64,14 +66,14 @@ body{
   }
   
   .main-header{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 48px;
   }
   
   p{
-    font-family: 'Rasa', serif;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
   }
   
   .left-text, .right-img {
@@ -92,7 +94,7 @@ body{
   .click-here{
     background-color:#FFCA78;
     color: #1B2B18;
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     font-weight: bold;
   
@@ -104,7 +106,7 @@ body{
   }
   
   .section2 {
-    color: #1B2B18;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +117,7 @@ body{
   
   .title-text{
     text-align: center;
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 36px;
   }
@@ -123,15 +125,16 @@ body{
   .images {
     border: 3px solid #0F1B21;
     border-radius: 10px;
-    width: 110px;
+    width: 140px;
     height: 110px;
     margin-left: 10px;
   }
   
-  .subtext {
-    max-width: 200px;
-    font-family: 'Rasa', serif;
-    font-size: 20px;
+  .card-description {
+    max-width: 210px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,8 +147,9 @@ body{
   }
 
   .head-quote{
-    font-family: 'Kanit', sans-serif;
-    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 24px;
     color: white;
     display: flex;
     justify-content: center;
@@ -155,20 +159,21 @@ body{
   }
 
   .head-quote-source{
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    color: white; 
     font-size: 22px;
+    color: white; 
     display: flex;
     justify-content: right;
     margin-right: 180px;
     margin-bottom: 160px;
   }
 
-  .quote{
-    font-family: 'Kanit', sans-serif;
-    font-size: 28px;
-    color: #1B2B18;
+  .body-quote{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 32px;
+    color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +182,7 @@ body{
   }
   
   .quote-source{
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: #1B2B18; 
     font-size: 22px;
@@ -211,17 +216,17 @@ body{
   }
   
   .bottom-section-title{
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
     line-height: 5px;
     font-weight: bold;
     color: #1B2B18;
-    margin-top: 30px;
+    margin-top: 27px;
     margin-left: 90px;
   }
   
   .bottom-section-info {
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     color: #1B2B18;
     margin-left: 86px;
@@ -231,7 +236,7 @@ body{
   .signup-2{
     background-color:#FFCA78;
     color: #1B2B18;
-    font-family: 'Barlow', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-weight: bold;
   
